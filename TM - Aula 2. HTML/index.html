@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <label for="id_usuario">Usuário</label>
+        <input type="text" id="id_usuario" name="nome_usuario">
+
+        <br>
+
+        <label for="id_idade">Idade</label>
+        <input type="number" name="nome_idade" id="id_idade">
+
+        <br>
+
+        <label for="id_email">Email</label>
+        <input type="email" name="nome_email" id="id_email">
+
+        <br>
+
+        <label for="id_senha">Senha</label>
+        <input type="password" name="nome_senha" id="id_senha">
+
+        <br>
+
+        <p>Marque as linguagens que você conhece:</p>
+        <input type="checkbox" id="python" name="linguagem">
+        <label for="python">Python</label>
+
+        <br>
+
+        <input type="checkbox" id="HTML" name="linguagem">
+        <label for="HTML">HTML</label>
+
+        <br>
+
+        <input type="checkbox" id="CSS" name="linguagem">
+        <label for="CSS">CSS</label>
+
+        <br>
+        <br>
+
+        <input type="radio" id="masculino" name="sexo">
+        <label for="masculino">Masculino</label>
+
+        <br>
+
+        <input type="radio" id="feminino" name="sexo">
+        <label for="feminino">Feminino</label>
+
+        <br>
+    
+        <input type="radio" id="outro" name="sexo">
+        <label for="outro">Outro</label>
+
+        <br>
+        <br>
+
+        <label for="id_data">Data de nascimento</label>
+        <input type="date" name="nome_tempo" id="id_data">
+
+        <br>
+
+        <label for="id_tempo">Horário de chegada</label>
+        <input type="time" name="nome_tempo" id="id_tempo">
+
+        <br>
+
+        <p>Selecione uma foto</p>
+        <input type="file" name="nome_arquivo" id="id_arquivo">
+
+        <br>
+        <br>
+
+        <label for="id_cor">Selecione uma cor</label>
+        <input type="color" name="nome_cor" id="id_cor">
+
+        <br>
+        <br>
+
+        <label for="id_range">Movimente a barra</label>
+        <input type="range" name="nome_range" id="id_range">
+
+        <br>
+        <br>
+
+        <label for="id_mensagem">Mensagem:</label>
+        <br>
+        <textarea name="nome_mensagem" id="id_mensagem" cols="30" rows="10"></textarea>
+
+        <br>
+
+        <label for="id_cidades">Selecione uma cidade</label>
+        <select name="nome_cidades" id="id_cidades">
+            <option value="fortaleza">Fortaleza</option>
+            <option value="eusebio">Eusébio</option>
+            <option value="caucaia">Caucaia</option>
+            <option value="maracanau">Maracanaú</option>
+        </select>
+        <br>
+        <br>
+        <button>Enviar</button>
+    </form>
+
+</body>
+</html>
